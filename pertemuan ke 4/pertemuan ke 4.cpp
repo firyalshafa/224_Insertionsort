@@ -19,6 +19,8 @@ void insertionsort() {
             j = j - 1; // step 4b 
 
         }
+        arr[j + 1] = temp; // step 5
+
     }
 }
 
